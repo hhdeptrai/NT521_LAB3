@@ -1,0 +1,5 @@
+# Editor and operating system files only. Lab binaries and corpora are intentionally tracked.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

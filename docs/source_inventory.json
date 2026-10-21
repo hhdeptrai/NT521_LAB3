@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-21T09:08:27.420622+07:00",
+  "sources": {
+    "xpdf-lab": {
+      "files": 4531,
+      "bytes": 132885355,
+      "source": "/home/lehuuhoang/xpdf-lab"
+    },
+    "fuzzlab": {
+      "files": 3,
+      "bytes": 682320,
+      "source": "/home/lehuuhoang/fuzzlab"
+    }
+  },
+  "honggfuzz": {
+    "source": "/home/lehuuhoang/honggfuzz",
+    "upstream": "https://github.com/google/honggfuzz.git",
+    "commit": "940b958dfeb6f9131fd846cae31fcc0fe996ae98",
+    "representation": "git submodule"
+  },
+  "all_source_file_hashes_match": true,
+  "credential_pattern_hits": 0,
+  "source_files_unchanged": true
+}

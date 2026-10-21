@@ -1,0 +1,141 @@
+=====================================================================
+TIME: 2026-10-21.08:59:58
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./install_hfuzz/bin/pdfinfo ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 6eff3a2e6c5f360e8996911cbae09e18.000043f3.honggfuzz.cov
+FUZZ_FNAME: work_3m/SIGSEGV.PC.5555556b09e3.STACK.dee4f376a.CODE.1.ADDR.10.INSTR.mov____(%rbx,%r15,4),%ebx.fuzz
+PID: 28981
+SIGNAL: SIGSEGV (11)
+PC: 0x5555556b09e3
+FAULT ADDRESS: 0x10
+INSTRUCTION: mov____(%rbx,%r15,4),%ebx
+STACK HASH: 0000000dee4f376a
+STACK:
+ <0x00005555555c5e79> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x0000555555688470> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x0000555555688000> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b46c7> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00007ffff782a1ca> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00007ffff782a28b> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x0000555555590cd5> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+=====================================================================
+=====================================================================
+TIME: 2026-10-21.09:00:34
+=====================================================================
+FUZZER ARGS:
+ mutationsPerRun : 5
+ externalCmd     : NULL
+ fuzzStdin       : FALSE
+ timeout         : 1 (sec)
+ ignoreAddr      : (nil)
+ ASLimit         : 0 (MiB)
+ RSSLimit        : 0 (MiB)
+ DATALimit       : 0 (MiB)
+ wordlistFile    : NULL
+ dynFileMethod   : 
+ fuzzTarget      : ./install_hfuzz/bin/pdfinfo ___FILE___ 
+CRASH:
+DESCRIPTION: 
+ORIG_FNAME: 272001d353ecc521c9fa592934d43c97.000043f3.honggfuzz.cov
+FUZZ_FNAME: work_3m/SIGSEGV.PC.7ffff78ab658.STACK.1a3f27b1e5.CODE.1.ADDR.7fffff7feff8.INSTR.push___%r13.fuzz
+PID: 35855
+SIGNAL: SIGSEGV (11)
+PC: 0x7ffff78ab658
+FAULT ADDRESS: 0x7fffff7feff8
+INSTRUCTION: push___%r13
+STACK HASH: 0000001a3f27b1e5
+STACK:
+ <0x00007ffff78ad8f2> [func:UNKNOWN file: line:0 module:/usr/lib/x86_64-linux-gnu/libc.so.6]
+ <0x00005555556c4494> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x000055555567b1d2> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x000055555568747f> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x0000555555687083> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2bc6> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2073> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+ <0x00005555556b2ced> [func:UNKNOWN file: line:0 module:/home/lehuuhoang/xpdf-lab/install_hfuzz/bin/pdfinfo]
+=====================================================================

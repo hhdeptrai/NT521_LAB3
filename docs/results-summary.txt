@@ -1,0 +1,8 @@
+run_1m.log
+Summary iterations:10348 time:61 speed:169 crashes_count:4 timeout_count:4 new_units_added:882 slowest_unit_ms:1100 guard_nb:21315 branch_coverage_percent:5 peak_rss_mb:62
+
+run_3m.log
+Summary iterations:31815 time:181 speed:175 crashes_count:2 timeout_count:3 new_units_added:1317 slowest_unit_ms:1088 guard_nb:21315 branch_coverage_percent:5 peak_rss_mb:993
+
+run_5m.log
+Summary iterations:38665 time:301 speed:128 crashes_count:5 timeout_count:9 new_units_added:1377 slowest_unit_ms:1084 guard_nb:21315 branch_coverage_percent:5 peak_rss_mb:63

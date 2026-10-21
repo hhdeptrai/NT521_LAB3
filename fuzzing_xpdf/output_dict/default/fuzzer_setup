@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=/home/comga999ms/fuzzing_xpdf/install/bin/pdfinfo
+AFL_CUSTOM_INFO_PROGRAM_ARGV=@@
+AFL_CUSTOM_INFO_OUT=output_dict/default
+# command line:
+'afl-fuzz' '-Q' '-x' 'pdf.dict' '-i' 'seeds' '-o' 'output_dict' '-V' '900' '--' '/home/comga999ms/fuzzing_xpdf/install/bin/pdfinfo' '@@'
